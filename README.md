@@ -1,6 +1,8 @@
 # svg-sprite-injector
 Async load svg-sprites
 
+> Inspired by http://osvaldas.info/caching-svg-sprite-in-localstorage
+
 ## Usage
 
 Just simply call
