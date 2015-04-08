@@ -1,0 +1,23 @@
+{
+  "name": "svg-sprite-injector",
+  "main": "svg-sprite-injector.js",
+  "homepage": "https://github.com/TrySound/svg-sprite-injector",
+  "authors": [
+    "Bogdan Chadkin <trysound@yandex.ru>"
+  ],
+  "description": "Async load svg-sprites",
+  "keywords": [
+    "svg",
+    "sprite",
+    "injector",
+    "svgstore"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
