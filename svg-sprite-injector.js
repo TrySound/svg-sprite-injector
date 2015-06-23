@@ -37,7 +37,7 @@
 					localStorage[name + 'Rev'] = revision;
 				}
 			}
-		}
+		};
 		request.send();
 	}
 
