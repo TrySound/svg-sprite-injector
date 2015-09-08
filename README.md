@@ -6,16 +6,28 @@ Async load svg-sprites
 ## Usage
 
 Just simply call
-```
+```js
 svgSpriteInjector('sprite.svg');
 ```
 
 ## Cache by localStorage
 
-```
+```js
 svgSpriteInjector('sprite.svg', {
 	revision: 1 // Revision identifier
 });
+```
+
+## Params in DOM
+
+```js
+svgSpriteInjector(document.body);
+```
+
+```html
+<body data-svg-sprite="sprite.svg" data-svg-sprite-revision="1">
+	<div></div>
+</body>
 ```
 
 ## Combine separated SVG's

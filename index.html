@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>SVG Sprite Injector</title>
 </head>
-<body>
+<body data-svg-sprite="sprite.svg" data-svg-sprite-revision="1">
 
 <svg><use xlink:href="#shape-24"></use></svg>
 <svg><use xlink:href="#shape-search"></use></svg>
@@ -14,9 +14,7 @@
 <script src="svg-sprite-injector.js"></script>
 <script>
 
-svgSpriteInjector('sprite.svg', {
-	revision: 1
-});
+svgSpriteInjector(document.body);
 
 </script>
 
