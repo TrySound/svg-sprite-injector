@@ -2,7 +2,11 @@
 	'use strict';
 
 	var isSvg = document.createElementNS && document.createElementNS( 'http://www.w3.org/2000/svg', 'svg' ).createSVGRect;
-	var localStorage = 'localStorage' in window && window['localStorage'] !== null ? window.localStorage : false;
+	var localStorage = false;
+	try {
+		localStorage = 'localStorage' in window && window['localStorage'] !== null ? window.localStorage : false;
+	} catch (e) {
+	}
 
 	function svgSpriteInjector(source, opts) {
 		var file;
